@@ -319,6 +319,14 @@ a:hover {
 img {
   max-width: 100%;
 }
+.nickchat {
+  width: 70%;
+}
+
+.nickbimbo {
+  width: 60%;
+}
+
 .btn {
   font-size: 12px;
   font-size: 0.75rem;

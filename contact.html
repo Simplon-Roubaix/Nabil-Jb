@@ -98,4 +98,16 @@
             </div>
         </form>
 
+        <!-- GOOGLE MAP -->
+        <div class="col-lg-5 col-md-push-1">
+            <div class="col-md-12">
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:350px;width:465px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">                 google maps carte             </a></small></div><div><small><a href="http://www.youtubeembedcode.com">generate youtube code</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.67372524322282,3.133730026122974),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.67372524322282,3.133730026122974)});infowindow = new google.maps.InfoWindow({content:'<strong>Titre</strong><br>Roubaix<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </div>
+        </div> 
+    </div>
+</div>
+
+
+</main>
+
 
